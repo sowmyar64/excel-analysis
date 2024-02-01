@@ -42,8 +42,6 @@ try:
     logger.debug(f'Excel DataFrame shape: {df_excel.shape}')
     logger.debug(f'Excel DataFrame columns: {df_excel.columns}')
 
-    print("First few rows of the Excel file:")
-    print(df_excel.head())
 
 except FileNotFoundError as e:
     logger.error(f'File not found: {e}', exc_info=True)
