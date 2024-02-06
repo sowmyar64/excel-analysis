@@ -43,7 +43,7 @@ def read_csv_and_create_excel(input_file_path, output_file_path):
 
 
 def read_excel_file(excel_file_path):
-    """
+
     Read the Excel file back into a DataFrame and log information.
     """
     # Check if the input Excel file exists
@@ -60,6 +60,7 @@ def read_excel_file(excel_file_path):
 
 
 def main():
+
     # Check if input and output file paths are provided as command-line arguments
     if len(sys.argv) != 3:
         print("Usage: python your_script.py <input_file_path> <output_file_path>")
